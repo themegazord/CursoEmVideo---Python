@@ -1,4 +1,3 @@
-print(f'No', f' Nome', f'{"Media":>20}')
-print('-'*30)
-
-
+n = '6'
+print(type(float(n)))
+print(f'{n:.2f}'.replace('.', ','))
